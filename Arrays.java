@@ -10,7 +10,7 @@ public class Arrays {
 	    System.out.print( a[i] );
 	    System.out.print( " " );
 	}
-	System.out.print( "/n" );
+	System.out.print( "\n" );
 
 	//instantiate new array of length 10
 	int[] b = new int[10];
@@ -21,7 +21,7 @@ public class Arrays {
 	    System.out.print( b[i] );
 	    System.out.print( " " );
 	}
-	System.out.print( "/n" );
+	System.out.print( "\n" );
 
 	//instantiate new array with length of 4
 	int[] c = { 1, 2, 3, 4 };
@@ -31,7 +31,7 @@ public class Arrays {
 	    System.out.print( b[i] );
 	    System.out.print( " " );
 	}
-	System.out.print( "/n" );
+	System.out.print( "\n" );
 
         
 	System.out.println( "Length of Array a: " + a.length );//10
