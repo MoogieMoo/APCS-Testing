@@ -1,4 +1,4 @@
-public class 2DArrays {
+public class TwoDArrays {
 
     public void printArray( int[][] array ) {
 
