@@ -6,7 +6,7 @@ public class TwoDArrays {
 	    for ( int j = 0; j < array[0].length; j++ ) {
 		System.out.print( array[i][j] );
 	    }
-	    System.out.print( "/n" );
+	    System.out.print( "\n" );
 	}
 
     }
