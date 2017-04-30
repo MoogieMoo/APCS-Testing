@@ -26,9 +26,9 @@ public class Arrays {
 	    System.out.print( b[i] );
 	    System.out.print( " " );
 	}
-	System.out.pritnln( "Lenght of Array a: " + a.length );//10
-	System.out.pritnln( "Lenght of Array b: " + b.length );//10
-	System.out.pritnln( "Lenght of Array c: " + c.length );//4
+	System.out.println( "Lenght of Array a: " + a.length );//10
+	System.out.println( "Lenght of Array b: " + b.length );//10
+	System.out.println( "Lenght of Array c: " + c.length );//4
 
     }
 
