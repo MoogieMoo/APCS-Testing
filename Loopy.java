@@ -30,9 +30,9 @@ public class Loopy {
 	String print1 = "[";
 	for ( int x = 0; x < loop1.size(); x++ ) {
 	    print1 += loop1.get(x);
-	    print1 += " ";
+	    print1 += ", ";
 	}
-	print1 = print1.substring( 0, print1.length() - 1 );
+	print1 = print1.substring( 0, print1.length() - 2 );
 	print1 += "]";
 	System.out.println( print1 );
 	System.out.println();
@@ -41,9 +41,9 @@ public class Loopy {
 	String print2 = "[" ;
 	for ( String s : loop1 ) {
 	    print2 += s;
-	    print2 += " ";
+	    print2 += ", ";
 	}
-	print2 = print2.substring( 0, print2.length() - 1 );
+	print2 = print2.substring( 0, print2.length() - 2 );
 	print2 += "]";
 	System.out.println( print2 );
 	System.out.println();
