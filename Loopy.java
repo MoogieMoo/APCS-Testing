@@ -27,14 +27,15 @@ public class Loopy {
 			     { "cod", "bod", "mod" } };
 
 	System.out.println( "Using for loop (arrayList)..." );
-	String print1 = "[ ";
+	String print1 = "[";
 	for ( int x = 0; x < loop1.size(); x++ ) {
 	    print1 += loop1.get(x);
 	    print1 += " ";
 	}
-	print1 = print1.substring( 0, print1.length() - 2 );
+	print1 = print1.substring( 0, print1.length() - 1 );
 	print1 += "]";
 	System.out.println( print1 );
+	System.out.println();
 
 	System.out.println( "Using for-each loop (arrayList)..." );
 	String print2 = "[" ;
@@ -45,12 +46,15 @@ public class Loopy {
 	print2 = print2.substring( 0, print2.length() - 1 );
 	print2 += "]";
 	System.out.println( print2 );
+	System.out.println();
 	
 	System.out.println( "Using built-n arrayList toString..." );
 	System.out.println( loop1 );
+	System.out.println();
 
 	System.out.println( "Using helper method printArray (2D array)..." );
 	printArray( loop2 );
+	System.out.println();
 
 	System.out.println( "Using for-each loop (2D array)..." );
 	for ( String[] b : loop2 ) {
