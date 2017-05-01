@@ -42,6 +42,7 @@ public class Loopy {
 	    print2 += " ";
 	}
 	print2 += "]";
+	System.out.println( print2 );
 	
 	System.out.println( "Using built-n arrayList toString..." );
 	System.out.println( loop1 );
