@@ -27,11 +27,12 @@ public class Loopy {
 			     { "cod", "bod", "mod" } };
 
 	System.out.println( "Using for loop (arrayList)..." );
-	String print1 = "[ ";
+	String print1 = "[";
 	for ( int x = 0; x < loop1.size(); x++ ) {
 	    print1 += loop1.get(x);
 	    print1 += " ";
 	}
+	print1 -= " ";
 	print1 += "]";
 	System.out.println( print1 );
 
@@ -41,6 +42,7 @@ public class Loopy {
 	    print2 += s;
 	    print2 += " ";
 	}
+	print2 -= " ";
 	print2 += "]";
 	System.out.println( print2 );
 	
