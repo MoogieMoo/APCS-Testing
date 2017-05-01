@@ -10,6 +10,10 @@ public class Mathers {
 	System.out.println( Math.max( 2.6, 5 ) );
 	System.out.println( "Finding the min of 9.9 and 6.8..." );
 	System.out.println( Math.min( 9.9, 6.8 ) );
+	System.out.println( "Finding the square root of 16..." );
+	System.out.println( Math.sqrt( 16 ) );
+	System.out.println( "Finding the square root of 38..." );
+	System.out.println( Math.sqrt( 38 ) );
 
     }
 
