@@ -27,19 +27,21 @@ public class Loopy {
 			     { "cod", "bod", "mod" } };
 
 	System.out.println( "Using for loop (arrayList)..." );
-	System.out.print( "[ " );
+	String print1 = "[ ";
 	for ( int x = 0; x < loop1.size(); x++ ) {
-	    System.out.print( loop1.get(x) );
-	    System.out.print( " " );
+	    print1 += loop1.get(x);
+	    print1 += " ";
 	}
-	System.out.print( "]" );
+	print1 += "]";
+	System.out.println( print1 );
 
 	System.out.println( "Using for-each loop (arrayList)..." );
-	System.out.println( "[" );
+	String print2 = "[" ;
 	for ( String s : loop1 ) {
-	    System.out.print( s + " " );
+	    print2 += s;
+	    print2 += " ";
 	}
-	System.out.println( "]" );
+	print2 += "]";
 	
 	System.out.println( "Using built-n arrayList toString..." );
 	System.out.println( loop1 );
