@@ -48,6 +48,23 @@ public class ArrayLists {
 	three.set( 3, "sam" );
 	System.out.println( three );
 
+	//instantiate new arrayList with no wrapper
+	List<Integer> four = new ArrayList<Integer>();
+	four.add( 1 );
+	four.add( 7 );
+	four.add( 6 );
+	//print the array
+	System.out.println( "ArrayList four: " );
+	System.out.println( four );
+	System.out.println( "Using overridden add method to insert a zero at index 0..." );
+	four.add( 0, 4 );
+	System.out.println( four );
+	System.out.println( "Change value at index 2 to 9..." );
+	four.set( 2, 9 );
+	System.out.println( "Change value at index 3 to 5..." );
+	four.set( 3, 5 );
+	System.out.println( four );
+       
     }
 
 }
