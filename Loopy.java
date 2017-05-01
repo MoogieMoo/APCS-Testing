@@ -32,7 +32,7 @@ public class Loopy {
 	    print1 += loop1.get(x);
 	    print1 += " ";
 	}
-	print2 = print2.substring( 0, print2.length - 2 );
+	print1 = print1.substring( 0, print1.length - 2 );
 	print1 += "]";
 	System.out.println( print1 );
 
