@@ -1,23 +1,44 @@
-public class Lamborghini extends RaceCar {
+public abstract class RaceCar implements Car {
 
-    private String color;
+    private String name;
+    private String brand;
+    private int plate;
 
-    public Lamborghini() {
-	super();
-	color = "";
+    public RaceCar() {
+	name = "";
+	brand = "";
+	plate = 0;
     }
 
-    public Lamborghini( String n, String b, int p ) {
-	super( n, b, p );
-	color = "";
+    public RaceCar( String n, String b, int p ) {
+	name = n;
+	brand = b;
+	plate = p;
     }
 
-    public String getColor() {
-	return color;
+    public String getName() {
+	return name;
     }
 
-    public void setColor( String s ) {
-	color = s;
+    public String getBrand() {
+	return brand;
+    }
+
+    public int getPlate() {
+	return plate;
+    }
+
+    public void setName( String s ) {
+	name = s;
+    }
+
+    public void setBrand( String s ) {
+	brand = s ;
+    }
+
+    public void setPlate( int i ) {
+	plate = i ;
+
     }
 
 }
