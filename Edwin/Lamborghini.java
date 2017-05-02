@@ -1,4 +1,4 @@
-public class Lamborghini {
+public class Lamborghini extends RaceCar {
 
     private String color;
 
@@ -7,7 +7,7 @@ public class Lamborghini {
 	color = "";
     }
 
-    public Lamborghini( String n, String b, String p ) {
+    public Lamborghini( String n, String b, int p ) {
 	super( n, b, p );
 	color = "";
     }
