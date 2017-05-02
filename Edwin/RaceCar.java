@@ -33,11 +33,11 @@ public abstract class RaceCar implements Car {
     }
 
     public void setBrand( String s ) {
-	Brand = s ;
+	brand = s ;
     }
 
     public void setPlate( int i ) {
-	Plate = i ;
+	plate = i ;
 
     }
 
