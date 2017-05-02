@@ -38,7 +38,9 @@ public abstract class RaceCar implements Car {
 
     public void setPlate( int i ) {
 	plate = i ;
-
     }
+
+    public abstract String getColor();
+    public abstract void setColor( String s );
 
 }
