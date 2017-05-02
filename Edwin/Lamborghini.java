@@ -12,28 +12,12 @@ public class Lamborghini extends RaceCar {
 	color = "";
     }
 
-    public String getName() {
-	return super.getName();
+    public String getColor() {
+	return color;
     }
 
-    public String getBrand() {
-	return super.getBrand();
-    }
-
-    public int getPlate() {
-	return super.getPlate();
-    }
-
-    public void setName( String s ) {
-	super.setName( s );
-    }
-
-    public void setBrand( String s ) {
-	super.setBrand( s );
-    }
-
-    public void setPlate( int i ) {
-	super.setPlate( i );
+    public void setColor( String s ) {
+	color = s;
     }
 
 }
