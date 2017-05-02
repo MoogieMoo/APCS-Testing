@@ -16,16 +16,29 @@ public abstract class RaceCar implements Car {
 	plate = p;
     }
 
-    public abstract String getName();
+    public String getName() {
+	return name;
+    }
 
-    public abstract String getBrand();
+    public String getBrand() {
+	return brand;
+    }
 
-    public abstract int getPlate();
+    public int getPlate() {
+	return plate;
+    }
 
-    public abstract void setName( String s );
+    public void setName( String s ) {
+	name = s;
+    }
 
-    public abstract void setBrand( String s );
+    public void setBrand( String s ) {
+	Brand = s ;
+    }
 
-    public abstract void setPlate( int i );
+    public void setPlate( int i ) {
+	Plate = i ;
+
+    }
 
 }
